@@ -1560,11 +1560,12 @@
 	}
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
+		color: #272833;
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 100;
 		line-height: 1.75em;
+		background-color: blanchedalmond;
 	}
 
 	a {
