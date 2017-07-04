@@ -2429,7 +2429,7 @@
 			position: absolute;
 			left: 0;
 			top: 0;
-			background-image: url(../../images/tvg_cs.jpg);
+			background-image: url(../../images/;
 			width: 100%;
 			height: 100%;
 			z-index: 1;
@@ -3607,7 +3607,7 @@
 			}
 
 			#header .logo a {
-				size: 18em;
+				size: 22em;
 				text-shadow: transparent;
 
 			}
@@ -3617,6 +3617,7 @@
 			#banner {
 				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
 				min-height: calc(100vh - 44px);
+				opacity: 0.75;  /* Полупрозрачность 75% */
 			}
 
 				#banner:before {
@@ -3628,7 +3629,7 @@
 				}
 
 					#banner .content header h2 {
-						font-size: 1.5em;
+						font-size: 4.5em;
 					}
 
 					#banner .content .image {
