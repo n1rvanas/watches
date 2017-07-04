@@ -72,7 +72,11 @@ $(function(){
 
 			<!--	ONE	-->
 		<section id="one" class="spotlight style1 bottom">
-			<span class="image fit main"><img src="images/product2.jpg" alt="image"></span>
+			<span class="image">
+				<img src="images/watch1" alt="watch1">
+				<img src="images/watch2" alt="watch2">
+				<img src="images/watch3" alt="watch3">
+			</span>
 				<div class="content">
 					<div class="container">
 						<div class="row">
@@ -96,7 +100,7 @@ $(function(){
 
 			<!--	TWO	-->
 		  <section id="two" class="spotlight style2 right">
-			<span class="image fit main"><img src="images/tvg_cs.jpg" alt="image" /></span>
+			<span class="image fit main"><img src="images/tvg_cs.jpg" alt="tvg_cs" /></span>
 				<a href="#three" class="goto-next scrolly">Дальше</a>
 		  </section>
 
@@ -143,7 +147,7 @@ $(function(){
             					<tr>
               						<td class="specs-list__title">Диаметр циферблата</td>
               						<td class="specs-list__param">46 мм</td>
-            					/tr>
+            					</tr>
             					<tr>
               						<td class="specs-list__title">Толщина циферблата:</td>
               						<td class="specs-list__param">12 мм</td>
@@ -177,6 +181,7 @@ $(function(){
                 				<div class="price--new">всего за 999 грн.</div>
               				</div>
               			</div>
+				<br>
 				<form class="form__inputs" action="send.php" method="post" onsubmit="if(this.name.value==''){alert('Введите Ваше имя');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона');return false}return true;">
                  			<input class="form__input" type="text" name="name" placeholder="Введите Имя" required=""><br>
                  			<input class="form__input" type="text" name="phone" placeholder="Введите телефон" required=""><br>
@@ -203,9 +208,9 @@ $(function(){
 				<ul class="copyright">
 					<li>&copy; <b>Армейские часы TVG.</b> Все права защищены.</li><li><i>Разработка сайта:</i> <a href="https://n1rvanas.github.io" target="_blank"><strong>Vysotskyi Vladimir</strong></a></li>
 				</ul>
-				<p id="back-top">
+				<!-- <p id="back-top">
 	       				<a href="#top"><span class="main-color1"></span></a>
-        			</p>
+        			</p> -->
 		    </footer>
 	</div>
 
